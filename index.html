@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RapidHub Training - HTML FORMS </title>
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <form method="POST" action="facebook.com">
+            <label for="username">Name:</label>
+            <input type="text" name="username"  />
+            <label for="password">Password:</label>
+            <input type="password" name="password"  />
+            <br>
+            <br>
+            <label for="age">age:</label>
+            <input type="number" name="age"  />
+            <br>
+            <br>
+            <label for="range">Range</label>
+            <input type="range" min="0" max="100" name="range" id="range">
+            <br>
+            <br>
+            <br>
+            <label for="comment">Enter Your comment</label>
+            <textarea>
+                default text
+            </textarea>
+            <br>
+            <!-- radio Element samples -->
+            <p>Gender</p>
+            <label for="gender">male</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="gender">female</label>
+            <input type="radio" name="gender" value="Female">
+            <br>
+            <!-- radio button for answers -->
+            <p>Do you like Jesus</p>
+            <label for="answer">Yes</label>
+            <input type="radio" name="answer" value="yes">
+            <label for="answer">No</label>
+            <input type="radio" name="answer" value="no">
+
+            <!-- checkbox samples -->
+            <p>Check Box</p>
+            <label for="gaming">Gaming</label>
+            <input type="checkbox" name="gaming" value="gaming">
+            <label for="praying">Praying</label>
+            <input type="checkbox" name="praying" value="praying">
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" name="swimming" value="swimming">
+            <br>
+            <br>
+            <br>
+            <!-- Select control box -->
+            <label for="interest">Select Area of Interest:</label>
+            <select name="interest">
+                <option value="-1">Select Interest</option>
+                <option value="0">Coding</option>
+                <option value="1">Graphics</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <!-- File select control -->
+            <label for="upload">Upload Profile Picture:</label>
+            <input type="file" name="upload">
+            <br>
+            <br>
+            <br>
+            <!-- Hidden form control -->
+            <label for="hidden">Hidden Control</label>
+            <input type="hidden" value="sdfosodf2i00338jsdldknlzkdslkndldfkns">
+            <hr>
+            <hr>
+            <label for="button">Clickable Button</label>
+            <button type="button">Click Here To Submit</button>
+
+            <hr>
+            <hr>
+            <label for="submit">Submit Input</label>
+            <input type="submit" value="Submit Form"/>
+            <hr>
+            <hr>
+            <label for="reset">Reset Input</label>
+            <input type="reset" value="Reset Form"/>
+        </form>
+    </body>
+</html>
